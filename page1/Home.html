@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyCar</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../gallary/icon.jpg" />
+    <style>
+      ul {
+        /* border-radius: 25px; */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+      }
+      li {
+        float: left;
+      }
+      li:last-child {
+        border-right: none;
+      }
+      li a {
+        display: block;
+        color: black;
+        font-family: "Lemonada", cursive;
+        font-size: medium;
+        text-align: center;
+        padding: 15px;
+        margin: 0px;
+        text-decoration: none;
+      }
+      li a:hover:not(.active) {
+        background-color: wheat;
+      }
+      .active {
+        background-color: #4caf50;
+      }
+      .bgimg {
+        background-image: url("../gallary/bgimg.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .whitefont{
+        font-family:sans-serif;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li>
+          <a
+            ><img
+              src="../gallary/logo1.jpg"
+              alt="not found"
+              width="90px"
+              height="20px"
+          /></a>
+        </li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float: right;"><a href="#about">About</a></li>
+      </li>
+    </div>
+    <header class="bgimg">
+      <span class="whitefont" style="font-size: xx-large;"><h1>Experience clear and simple car buying and selling.</h1></span>
+      <span class="whitefont"><h3>Find the right car for you.</h3></span>
+    </header>
+  </body>
+</html>
